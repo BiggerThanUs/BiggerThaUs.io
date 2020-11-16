@@ -15,7 +15,7 @@ p{
     font-weight: 300;
     font-size: 1.5em;
     letter-spacing: 0.5px;
-    color: black;
+    color: white;
 }
 
 h1{
@@ -24,7 +24,7 @@ h1{
     font-weight: 350;
     font-size: 5em;
     letter-spacing: 0.5px;
-    color: black;
+    color: white;
 }
 
 h2{
@@ -34,7 +34,7 @@ h2{
     font-weight: 100;
     font-size: 1.5em;
     letter-spacing: 5px;
-    color: black;
+    color: white;
 }
 
 h3{
@@ -44,7 +44,7 @@ h3{
     font-weight: 100;
     font-size: 1.5em;
     letter-spacing: 5px;
-    color: black;
+    color: white;
 }
 
 section {
@@ -79,7 +79,7 @@ footer{
     font-weight: 150;
     font-size: 1 em;
     letter-spacing: 4px;
-    color: black;
+    color: f5f5f5;
 }
 
 
@@ -126,6 +126,9 @@ footer{
     padding-top:10x;
     max-width: 60vw;
     margin: auto;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle 
 }
 
 .left {
@@ -148,7 +151,7 @@ footer{
 }
 
 .button_01 {
-    font-family: 'Quicksand';
+    font-family: 'Nunito';
     text-align: center;
     padding-top: 35px;
     font-weight: 100;
