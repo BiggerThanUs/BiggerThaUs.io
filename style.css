@@ -97,6 +97,11 @@ footer{
   text-align: middle;
 }
 
+.container video {
+  display: flex;
+  justify-content: center;
+}
+
 .container
 {
     padding-top:10x;
@@ -107,10 +112,7 @@ footer{
     vertical-align: middle; 
 }
 
-.container video {
-  display: flex;
-  justify-content: center;
-}
+
 
 .myGrid {
     display: grid;
