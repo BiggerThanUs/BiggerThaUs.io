@@ -1,7 +1,7 @@
 /*CSS boiler style sheet*/
-/*body of page will be light-orange*/
+/*body of page will be black*/
 body{
-    background-color:#FFA42A;
+    background-color:#000000;
 }
 
 a{
@@ -10,7 +10,7 @@ a{
 
 /*body parahraph is Quicksand*/
 p{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     font-weight: 300;
     font-size: 1.5em;
@@ -19,7 +19,7 @@ p{
 }
 
 h1{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     font-weight: 350;
     font-size: 5em;
@@ -28,7 +28,7 @@ h1{
 }
 
 h2{
-    font-family: 'Quicksand';
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     padding-top: 25px;"
     font-weight: 100;
@@ -38,7 +38,7 @@ h2{
 }
 
 h3{
-    font-family: 'Quicksand';
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     padding-top: 35px;
     font-weight: 100;
@@ -64,7 +64,7 @@ img{
 }
 
 li{
-    font-family: 'Quicksand', sans-serif, bold;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     padding-top: 15px;
     font-weight: 200;
@@ -74,7 +74,7 @@ li{
 }
 
 footer{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     font-weight: 150;
     font-size: 1 em;
@@ -105,8 +105,8 @@ footer{
 }
 
 .navbar ul li{
-    font-family: 'Quicksand', Serif, bold;
-    color: black;
+   font-family: 'Nunito', sans-serif;
+    color: white;
     text-align: center;
     font-weight: 350;
     font-size: 10.5 em;
@@ -154,7 +154,7 @@ footer{
     font-weight: 100;
     font-size: 1.5em;
     letter-spacing: 5px;
-    color: black;
+    color: white;
 
 }
 
@@ -178,12 +178,12 @@ footer{
 }
 
 .main-nav a {
-    color: #1F0702;
+    color: #f5f5f5;
     font-size: .99em;
 }
 /*color changes to dark brwon when hovered over*/
 .main-nav a:hover {
-    color: #DB812D;
+    color: #F3EBE1;
 }
 
 
@@ -191,8 +191,8 @@ footer{
 .header {
     padding-top: .5em;
     padding-bottom: .5em;
-    border: 1px solid #EBD060;
-    background-color: #EBC360;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
     -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
