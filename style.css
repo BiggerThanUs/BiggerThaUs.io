@@ -1,0 +1,258 @@
+/*CSS boiler style sheet*/
+/*body of page will be black*/
+body{
+    background-color:#000000;
+}
+
+/*body parahraph is Nunito*/
+p{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+h1, a{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: 350;
+    font-size: 5em;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+h2{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding-top: 25px;"
+    font-weight: 100;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+}
+
+
+section {
+  max-width: 40em;
+  margin: 1em auto;
+} 
+
+img{
+    padding-top:30px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    middle-align: auto;
+    position: relative;
+    max-height: 500px;
+}
+
+
+footer{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: 150;
+    font-size: 1 em;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+}
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+.top_bar{
+    max-height: 400px;
+    padding-bottom: 30px;
+    text-align: right
+}
+
+.logo {
+    display: block;
+    background-repeat: no-repeat;
+    align-content: middle;
+    height: auto;
+    width: 300px;
+    margin: auto;
+}
+
+.navbar ul li{
+   font-family: 'Nunito', sans-serif;
+    color: #2E252B;
+    text-align: right;
+    font-weight: 350;
+    font-size: 13.5 em;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding-right:15px;
+}
+
+
+.nav_pad{
+  padding-top:10x;
+  text-align: middle;
+}
+
+.container video {
+  display: flex;
+  justify-content: center;
+}
+
+.container
+{
+    padding-top:10x;
+    max-width: 60vw;
+    margin: auto;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle; 
+}
+
+
+
+.myGrid {
+    display: grid;
+    /* Creating grid tracks (rows and columns) */
+    grid-template-columns: 280px 280px 280px;
+    grid-template-rows: 166px 166px 166px;
+/*  grid-gap: 20px; */
+    grid-gap: 20px;
+/* Center grid */
+    margin: 0 auto;
+        /*  margin: 0 auto is shorthand for setting the top and bottom margins to zero, and the left and right margins to auto. */
+    max-width: 790px;
+        /* Defines Max Width for grid. In this case
+        column width x 3 + grid-gap x 2*/
+}
+
+
+.logo a,
+.main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.main-nav a {
+    color: #f5f5f5;
+    font-size: .99em;
+}
+/*color changes to light grey when hovered over*/
+.main-nav a:hover {
+    color: #F3EBE1;
+}
+
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+.button_01 {
+    font-family: 'Nunito';
+    text-align: center;
+    padding-top: 35px;
+    font-weight: 100;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    color: white;
+}
+
+
+.logo {
+    margin: 0;
+    font-size: 1.65em;
+}
+
+.main-nav {
+    margin-top: 5px;
+
+}
+
+.mainheader {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+}
+.panel {
+  grid-area: sidebar;
+}
+.mainfooter {
+  grid-area: footer;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+
+  grid-template-areas: 
+    "header"
+    "sidebar"
+    "content"
+    "footer"
+}
+
+/* 
+  Media Queries borrowed from Sam Norton Flexbox Nav Bar on Codepen
+*/ 
+
+
+@media (min-width: 700px) {
+    .header,
+    .main-nav {
+        display: flex;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        .header{
+        width: 70%;
+        margin: 0 auto;
+        max-width: 1100px;
+    }
+    }
+
+}
+
+/* 
+  Media Queries borrowed from G.Craig Hobbs Grid Names Areas w/header and footer on Codepen
+*/ 
+
+
+
+@media (min-width: 800px) {
+  
+  
+  .wrapper {
+    grid-template-columns: 30% 65%;
+    grid-template-areas:
+      "header header"
+      "sidebar content"
+      "footer footer"
+  }
+}
+
+@media (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
